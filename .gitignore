@@ -1,0 +1,54 @@
+# ------------------------
+# Java / Spring Boot
+# ------------------------
+/backend/build/
+/backend/out/
+/backend/.classpath
+/backend/.project
+/backend/.settings/
+/backend/.idea/
+/backend/*.iml
+/backend/*.log
+/backend/*.class
+/backend/.DS_Store
+
+# Lombok / Annotation processors
+/backend/target/
+
+# ------------------------
+# Gradle
+# ------------------------
+/.gradle/
+/build/
+
+# ------------------------
+# Node / Frontend (если есть)
+# ------------------------
+/frontend/node_modules/
+/frontend/dist/
+/frontend/build/
+/frontend/.env
+/frontend/.DS_Store
+
+# ------------------------
+# Docker
+# ------------------------
+/docker-compose.override.yml
+**/docker-compose.override.yml
+**/Dockerfile.override
+
+# ------------------------
+# OS / IDE
+# ------------------------
+*.DS_Store
+*.log
+*.tmp
+*.swp
+.idea/
+*.iml
+.vscode/
+
+# ------------------------
+# Git
+# ------------------------
+# Ignore everything except the files we track explicitly

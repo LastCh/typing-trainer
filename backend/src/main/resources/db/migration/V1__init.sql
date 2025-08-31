@@ -7,7 +7,16 @@ CREATE TABLE IF NOT EXISTS users (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Пример: можно сразу вставить админа
+-- Создание таблицы результатов
+CREATE TABLE IF NOT EXISTS scores (
+    id SERIAL PRIMARY KEY,
+    user_id INT REFERENCES users(id),
+    wpm INT NOT NULL,
+    accuracy DECIMAL(5,2) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+-- Вставка администратора (BCrypt)
 INSERT INTO users (username, password, role)
-VALUES ('admin', '$2a$10$examplehashedpassword', 'ADMIN')
+VALUES ('admin', '$2a$10$yourhashedpassword', 'ADMIN')
 ON CONFLICT (username) DO NOTHING;
