@@ -20,8 +20,7 @@ Features user authentication, score tracking, and database migrations with Flywa
 ---
 
 ## Project Structure
-typing-trainer/
-│
+typing-trainer
 |
 ├── README.md
 |
@@ -29,9 +28,9 @@ typing-trainer/
 |
 ├── docker-compose.yml
 |
-├── backend/ # Spring Boot application, DB migrations, Dockerfile
+├── backend # Spring Boot application, DB migrations, Dockerfile
 |
-└── frontend/ # Frontend application
+└── frontend # Frontend application
 
 ---
 
