@@ -1,7 +1,8 @@
 # Typing Trainer
 
-Typing Trainer is a web application for practicing touch typing skills using Java Spring Boot with PostgreSQL and Docker.  
-It supports REST API, Swagger UI, and basic authentication via Spring Security.
+Typing Trainer is a web application for improving touch typing skills.  
+Built with **Spring Boot**, **PostgreSQL**, **Docker**, and integrated with **Swagger** for API testing.  
+Features user authentication, score tracking, and database migrations with Flyway.
 
 ---
 
@@ -20,10 +21,12 @@ It supports REST API, Swagger UI, and basic authentication via Spring Security.
 
 ## Project Structure
 typing-trainer/
-├─ backend/ # Spring Boot backend
-├─ frontend/ # frontend (if any)
-├─ docker-compose.yml # Docker setup for app and DB
-├─ README.md
+│
+├── README.md
+├── .gitignore
+├── docker-compose.yml
+├── backend/ # Spring Boot application, DB migrations, Dockerfile
+└── frontend/ # Frontend application
 
 ---
 
