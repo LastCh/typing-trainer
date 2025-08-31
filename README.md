@@ -51,9 +51,9 @@ After the containers start:
 ## Test User
 
 You can use the following test credentials to check authentication:
-
-Username |Password|Role
-admin	 |admin123|ADMIN
+| Username | Password | Role  |
+|----------|----------|-------|
+| admin    | admin123 | ADMIN |
 
 Password is stored in application.properties (for testing only; use BCrypt in production).
 
