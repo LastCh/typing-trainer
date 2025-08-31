@@ -17,23 +17,6 @@ Features user authentication, score tracking, and database migrations with Flywa
 - Docker & Docker Compose
 - Gradle Kotlin DSL
 
----
-
-## Project Structure
-typing-trainer
-|
-├── README.md
-|
-├── .gitignore
-|
-├── docker-compose.yml
-|
-├── backend # Spring Boot application, DB migrations, Dockerfile
-|
-└── frontend # Frontend application
-
----
-
 ## Quick Start with Docker
 
 1. Make sure Docker and Docker Compose are installed.
